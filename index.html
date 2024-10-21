@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BlocksUnblocked</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
+    <style>
+        body {
+            background: linear-gradient(to bottom, black, gray, black); /* Black to gray to black gradient */
+            color: white; /* Default text color */
+            margin: 0; /* Remove default margin */
+            font-family: 'Fredoka One', cursive; /* Apply Fredoka One font */
+        }
+
+        header {
+            color: black; /* Header text color */
+            text-align: center; /* Center the text */
+            font-size: 2em; /* Increase font size for visibility */
+            text-shadow: 
+                -1px -1px 0px white,
+                1px -1px 0px white,
+                -1px 1px 0px white,
+                1px 1px 0px white; /* Creates a border effect */
+            margin: 20px 0; /* Add some margin above and below the header */
+        }
+
+        nav {
+            text-align: center; /* Center the navigation links */
+        }
+
+        nav a {
+            color: white; /* White color for links */
+            text-decoration: none; /* Remove underline from links */
+            margin: 0 15px; /* Spacing between links */
+        }
+
+        nav a:hover {
+            text-decoration: underline; /* Underline on hover for effect */
+        }
+
+        .ovo-box {
+            background-color: gray; /* Gray background for the box */
+            width: 200px; /* Set a width for the box */
+            margin: 20px auto; /* Center the box horizontally */
+            padding: 10px; /* Padding inside the box */
+            border-radius: 10px; /* Rounded corners */
+            text-align: center; /* Center the content inside the box */
+            display: inline-block; /* Ensure the box respects its width */
+        }
+
+        .ovo-box img {
+            max-width: 100%; /* Make the image responsive */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .ovo-text {
+            margin-top: 10px; /* Space between image and text */
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a very basic homepage for now, only meant for the games to run smoothly.</h1>
+    <header>BlocksUnblocked HomePage</header>
+    <nav>
+        <a href="./games/Slope.html">Slope</a>
+        <a href="./games/OvO/index.html" class="ovo-box"> <!-- Make the box a hyperlink -->
+            <img src="./assets/OvOIcon.jpeg" alt="OvO Icon"> <!-- Image for OvO -->
+            <div class="ovo-text">OvO</div> <!-- Text for OvO -->
+        </a>
+        <a href="./games/dddavit.github.io-main/subway/index.html">Subway Surfers</a>
+    </nav>
+</body>
+</html>
